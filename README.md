@@ -66,9 +66,9 @@ help page. If that's OK, you can attempt to fetch a stock using something like:
 The result should be similar to:
 
 ```
-# HELP quote_exporter_stock_price Asset Price.
-# TYPE quote_exporter_stock_price gauge
-quote_exporter_stock_price{name="Alphabet Inc.",symbol="GOOGL"} 1333.54
+# HELP quotes_exporter_stock_price Asset Price.
+# TYPE quotes_exporter_stock_price gauge
+quotes_exporter_stock_price{name="Alphabet Inc.",symbol="GOOGL"} 1333.54
 # HELP quotes_exporter_failed_queries_total Count of failed queries
 # TYPE quotes_exporter_failed_queries_total counter
 quotes_exporter_failed_queries_total 1
